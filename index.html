@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#" class="logo">
+               Apparel Central
+            </a>
+    
+            <div class="cart-logo">
+               <div class="cart-count">0</div>
+               <i class="fas fa-shopping-cart" id="cart-icon"></i>
+            </div>
+    
+            <div class="cart">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-items"></div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price"></div>
+                </div>
+    
+                <button class="purchase">Place Order</button>
+    
+                <i class="fas fa-times" id="cart-close"></i>
+                <div class="empty">
+                    <button class="empty-cart">Empty Cart</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2 class="title">Jackets and Hoodies</h2>
+        <div class="shop-items">
+            <div class="item-card">
+                <div class="image">
+                   <img src="img/jacket-1.jpg" class="item-img">
+                </div>
+                <h2 class="item-title">Adidas Hoodie</h2>
+                <span class="item-price">$32.99</span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="item-card">
+                <div class="image">
+                    <img src="img/jacket-2.jpg" class="item-img">
+                </div>
+                <h2 class="item-title">Adidas Jacket</h2>
+                <span class="item-price">$28.99</span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="item-card">
+                <div class="image">
+                    <img src="img/jacket-3.jpg" class="item-img">
+                </div>
+                <h2 class="item-title">Champion Hoodie</h2>
+                <span class="item-price">$30.99</span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="item-card">
+                <div class="image">
+                    <img src="img/jacket-4.jpg" class="item-img">
+                </div>
+                <h2 class="item-title">Nike Hoodie</h2>
+                <span class="item-price">$31.99</span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="item-card">
+                <div class="image">
+                    <img src="img/jacket-5.jpg" class="item-img">
+                </div>
+                <h2 class="item-title">Nike Jacket</h2>
+                <span class="item-price">$42.99</span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+            <div class="item-card">
+                <div class="image">
+                    <img src="img/jacket-6.jpg" class="item-img">
+                </div>
+                <h2 class="item-title">Reebok Hoodie</h2>
+                <span class="item-price">$29.99</span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Created and designed by <a href="https://geraldandrewsmedia.netlify.app/" target="_blank">Gerald Andrews Media</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
